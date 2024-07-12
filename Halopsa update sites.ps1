@@ -2,10 +2,10 @@
 Import-Module HaloAPI
 
 # Define the necessary variables
-$TenantClientID = "b07869ba-33a0-4126-a567-7f668a065419"
-$TenantClientSecret = "d47b44f5-ab30-4430-8e5d-c8d0374a86c6-df07797b-be6e-4a36-8869-7e03250f9cb5"
-$TenantURL = "https://firstclass.halopsa.com/" # Ensure the trailing slash is included
-$TenantName = "firstclass"
+$TenantClientID = ""
+$TenantClientSecret = ""
+$TenantURL = "" # Ensure the trailing slash is included
+$TenantName = ""
 
 # Authenticate with the HaloPSA API
 Connect-HaloAPI -ClientID "$TenantClientID" -URL "$TenantURL" -ClientSecret "$TenantClientSecret" -Tenant "$TenantName" -Scopes "all"
